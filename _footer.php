@@ -1,0 +1,289 @@
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Заголовок</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+        Контент занимает всю высоту справа.
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-bottom w-100" tabindex="-1" id="offcanvasBottom">
+    <div class="container_main">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">gestion des cookies</h5>
+<!--            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>-->
+        </div>
+        <div class="offcanvas-body small">
+            Nous utilisons des cookies pour améliorer votre expérience de navigation et analyser notre trafic. Certains cookies sont essentiels au bon fonctionnement du site, tandis que d'autres nous aident à personnaliser votre expérience ou à analyser des données statistiques.
+            <br /><br />
+            Vous pouvez accepter, refuser ou configurer vos préférences à tout moment. Politique de cnfidentialité.
+        </div>
+        <div class="offcanvas-footer">
+            <a href="#" class="btn_default me-4" data-bs-dismiss="offcanvas">
+                <span>non merci</span>
+            </a>
+            <a href="#modalCookies" class="btn_default me-4" data-bs-dismiss="offcanvas" data-bs-toggle="modal">
+                <span>je choisis</span>
+            </a>
+            <a href="#" class="btn_red">
+                <span>ok pour moi</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Заголовок</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+
+            <div class="modal-body">
+                Здесь содержимое модального окна (текст, формы, картинки и т.п.)
+            </div>
+
+            <div class="modal-footer">
+                <a href="#" class="btn_orange">
+                    <span>ok</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalCookies" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Ajustez vos préférences en matière de cookies</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+
+            <div class="modal-body">
+                <p class="text-center">Nous utilisons 3 types de cookies. Vous pouvez choisir les cookies que vous acceptez que nous utilisions. Pour plus de détails, ainsi qu’une liste des cookies que nous utilisons, veuillez consulter la Politique de confidentialité.</p>
+                <div class="radio_box">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="typeCookie" id="inline1" value="1">
+                        <label class="form-check-label" for="inline1">Cookies fonctionnels (obligatoires)</label>
+                    </div>
+                    <div class="rb_text">
+                        Ces cookies sont indispensables au bon fonctionnement du site et ne nécessitent pas votre consentement. Ils permettent par exemple de vous connecter à votre session utilisateur, d'assurer la sécurité de la navigation, et de gérer les pics de charge.
+                    </div>
+                </div>
+                <div class="radio_box">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="typeCookie" id="inline2" value="1">
+                        <label class="form-check-label" for="inline2">Cookies de performance (optionnels)</label>
+                    </div>
+                    <div class="rb_text">
+                        Ces cookies nous aident à améliorer la performance et l'ergonomie de notre site en analysant le comportement des utilisateurs. Ces cookies ne seront activés qu'après votre consentement.
+                    </div>
+                </div>
+                <div class="radio_box">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="typeCookie" id="inline3" value="1">
+                        <label class="form-check-label" for="inline3">Cookies marketing (optionnels)</label>
+                    </div>
+                    <div class="rb_text">
+                        Ces cookies sont utilisés pour vous présenter des publicités ciblées et pertinentes sur ce site et d'autres sites. Ils ne seront activés qu'avec votre consentement.
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#" class="btn_red">
+                    <span>sauvegarder</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer_top">
+        <div class="container_main">
+            <div class="row footer_top__row">
+                <div class="col-12 col-lg-6 col-xl-3 footer_top__1">
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#" class="footer_link">accueil</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">réserver une démo</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">je suis cse</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">je suis rh</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">blog de vaziva</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">mon compte</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-3 footer_top__2">
+                    <ul class="footer_links mb-5">
+                        <li class="mb-4">
+                            <a href="#" class="footer_link">contact</a>
+                        </li>
+                        <li class="mb-4">
+                            <span class="mob_db ml_text">Email:</span> contact@vazivacard.com
+                        </li>
+                        <li class="fd-flex">
+                            <div class="pe-1 ml_text">Adresse: </div>
+                            <div>
+                                31-35 rue de la Fédération<br />
+                                Carré Suffren<br />
+                                75015 Paris, France
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="footer_soc_links">
+                        <li>
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19ZM18.5 18.5V13.2C18.5 12.3354 18.1565 11.5062 17.5452 10.8948C16.9338 10.2835 16.1046 9.94 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17C14.6813 12.17 15.0374 12.3175 15.2999 12.5801C15.5625 12.8426 15.71 13.1987 15.71 13.57V18.5H18.5ZM6.88 8.56C7.32556 8.56 7.75288 8.383 8.06794 8.06794C8.383 7.75288 8.56 7.32556 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19C6.43178 5.19 6.00193 5.36805 5.68499 5.68499C5.36805 6.00193 5.19 6.43178 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56ZM8.27 18.5V10.13H5.5V18.5H8.27Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.028 2C14.153 2.003 14.724 2.009 15.217 2.023L15.411 2.03C15.635 2.038 15.856 2.048 16.123 2.06C17.187 2.11 17.913 2.278 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8307 4.17773 21.2242 4.78247 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.952 8.144 21.962 8.365 21.97 8.59L21.976 8.784C21.991 9.276 21.997 9.847 21.999 10.972L22 11.718V13.028C22.0024 13.7574 21.9948 14.4868 21.977 15.216L21.971 15.41C21.963 15.635 21.953 15.856 21.941 16.122C21.891 17.187 21.721 17.912 21.475 18.55C21.2242 19.2175 20.8307 19.8223 20.322 20.322C19.8223 20.8307 19.2175 21.2242 18.55 21.475C17.913 21.722 17.187 21.89 16.123 21.94L15.411 21.97L15.217 21.976C14.724 21.99 14.153 21.997 13.028 21.999L12.282 22H10.973C10.2432 22.0026 9.51351 21.9949 8.78399 21.977L8.58999 21.971C8.3526 21.962 8.11526 21.9517 7.87799 21.94C6.81399 21.89 6.08799 21.722 5.44999 21.475C4.78282 21.2241 4.17843 20.8306 3.67899 20.322C3.16993 19.8224 2.7761 19.2176 2.52499 18.55C2.27799 17.913 2.10999 17.187 2.05999 16.122L2.02999 15.41L2.02499 15.216C2.00656 14.4868 1.99822 13.7574 1.99999 13.028V10.972C1.99722 10.2426 2.00456 9.5132 2.02199 8.784L2.02899 8.59C2.03699 8.365 2.04699 8.144 2.05899 7.878C2.10899 6.813 2.27699 6.088 2.52399 5.45C2.77568 4.7822 3.17021 4.17744 3.67999 3.678C4.17914 3.16955 4.78318 2.77607 5.44999 2.525C6.08799 2.278 6.81299 2.11 7.87799 2.06C8.14399 2.048 8.36599 2.038 8.58999 2.03L8.78399 2.024C9.51318 2.00623 10.2426 1.99857 10.972 2.001L13.028 2ZM12 7C10.6739 7 9.40214 7.52678 8.46446 8.46447C7.52677 9.40215 6.99999 10.6739 6.99999 12C6.99999 13.3261 7.52677 14.5979 8.46446 15.5355C9.40214 16.4732 10.6739 17 12 17C13.3261 17 14.5978 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5978 7.52678 13.3261 7 12 7ZM12 9C12.394 8.99993 12.7841 9.07747 13.1481 9.22817C13.5121 9.37887 13.8428 9.5998 14.1215 9.87833C14.4001 10.1569 14.6211 10.4875 14.7719 10.8515C14.9228 11.2154 15.0004 11.6055 15.0005 11.9995C15.0006 12.3935 14.923 12.7836 14.7723 13.1476C14.6216 13.5116 14.4007 13.8423 14.1222 14.121C13.8436 14.3996 13.513 14.6206 13.149 14.7714C12.785 14.9223 12.395 14.9999 12.001 15C11.2053 15 10.4423 14.6839 9.87967 14.1213C9.31706 13.5587 9.00099 12.7956 9.00099 12C9.00099 11.2044 9.31706 10.4413 9.87967 9.87868C10.4423 9.31607 11.2053 9 12.001 9M17.251 5.5C16.9195 5.5 16.6015 5.6317 16.3671 5.86612C16.1327 6.10054 16.001 6.41848 16.001 6.75C16.001 7.08152 16.1327 7.39946 16.3671 7.63388C16.6015 7.8683 16.9195 8 17.251 8C17.5825 8 17.9005 7.8683 18.1349 7.63388C18.3693 7.39946 18.501 7.08152 18.501 6.75C18.501 6.41848 18.3693 6.10054 18.1349 5.86612C17.9005 5.6317 17.5825 5.5 17.251 5.5Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 16.84 5.44 20.87 10 21.8V15H8V12H10V9.5C10 7.57 11.57 6 13.5 6H16V9H14C13.45 9 13 9.45 13 10V12H16V15H13V21.95C18.05 21.45 22 17.19 22 12Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16 21.75C17.525 21.75 18.9875 21.1442 20.0659 20.0659C21.1442 18.9875 21.75 17.525 21.75 16V8C21.75 6.47501 21.1442 5.01247 20.0659 3.93414C18.9875 2.8558 17.525 2.25 16 2.25H8C6.47501 2.25 5.01247 2.8558 3.93414 3.93414C2.8558 5.01247 2.25 6.47501 2.25 8V16C2.25 17.525 2.8558 18.9875 3.93414 20.0659C5.01247 21.1442 6.47501 21.75 8 21.75H16ZM13.711 5.763C13.6544 5.59444 13.5398 5.45147 13.3876 5.35959C13.2353 5.26771 13.0554 5.2329 12.8799 5.26137C12.7044 5.28985 12.5447 5.37974 12.4293 5.51503C12.314 5.65032 12.2504 5.8222 12.25 6V15C12.25 15.445 12.118 15.88 11.8708 16.25C11.6236 16.62 11.2722 16.9084 10.861 17.0787C10.4499 17.249 9.9975 17.2936 9.56105 17.2068C9.12459 17.1199 8.72368 16.9057 8.40901 16.591C8.09434 16.2763 7.88005 15.8754 7.79323 15.439C7.70642 15.0025 7.75097 14.5501 7.92127 14.139C8.09157 13.7278 8.37996 13.3764 8.74997 13.1292C9.11998 12.882 9.55499 12.75 10 12.75C10.1989 12.75 10.3897 12.671 10.5303 12.5303C10.671 12.3897 10.75 12.1989 10.75 12C10.75 11.8011 10.671 11.6103 10.5303 11.4697C10.3897 11.329 10.1989 11.25 10 11.25C9.25832 11.25 8.5333 11.4699 7.91661 11.882C7.29993 12.294 6.81928 12.8797 6.53545 13.5649C6.25162 14.2502 6.17736 15.0042 6.32206 15.7316C6.46675 16.459 6.8239 17.1272 7.34835 17.6517C7.8728 18.1761 8.54098 18.5332 9.26841 18.6779C9.99584 18.8226 10.7498 18.7484 11.4351 18.4645C12.1203 18.1807 12.706 17.7001 13.118 17.0834C13.5301 16.4667 13.75 15.7417 13.75 15V8.458C14.517 9.17 15.597 9.75 17 9.75C17.1989 9.75 17.3897 9.67098 17.5303 9.53033C17.671 9.38968 17.75 9.19891 17.75 9C17.75 8.80109 17.671 8.61032 17.5303 8.46967C17.3897 8.32902 17.1989 8.25 17 8.25C16.028 8.25 15.289 7.85 14.741 7.331C14.181 6.799 13.843 6.158 13.711 5.763Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22.46 6C21.69 6.35 20.86 6.58 20 6.69C20.88 6.16 21.56 5.32 21.88 4.31C21.05 4.81 20.13 5.16 19.16 5.36C18.37 4.5 17.26 4 16 4C13.65 4 11.73 5.92 11.73 8.29C11.73 8.63 11.77 8.96 11.84 9.27C8.27998 9.09 5.10998 7.38 2.99998 4.79C2.62998 5.42 2.41998 6.16 2.41998 6.94C2.41998 8.43 3.16998 9.75 4.32998 10.5C3.61998 10.5 2.95998 10.3 2.37998 10V10.03C2.37998 12.11 3.85998 13.85 5.81998 14.24C5.19082 14.4129 4.53001 14.4369 3.88998 14.31C4.16158 15.1625 4.69351 15.9084 5.41099 16.4429C6.12847 16.9775 6.99543 17.2737 7.88998 17.29C6.37365 18.4905 4.49399 19.1394 2.55998 19.13C2.21998 19.13 1.87998 19.11 1.53998 19.07C3.43998 20.29 5.69998 21 8.11998 21C16 21 20.33 14.46 20.33 8.79C20.33 8.6 20.33 8.42 20.32 8.23C21.16 7.63 21.88 6.87 22.46 6Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-3 footer_top__3">
+                    <div class="footer_nl">
+                        <ul class="footer_links mb-3">
+                            <li class="mb-4">
+                                <div class="footer_link">newsletter</div>
+                            </li>
+                            <li class="fnl_text_12">
+                                Inscirvez-vous à notre newsletter.<br />
+                                Ne manquez rien des évolutions RH et CSE utiles à vos collaborateurs.
+                            </li>
+                        </ul>
+                        <form class="footer_form">
+                            <div class="ff_input_box">
+                                <input type="text" class="ff_input" placeholder="Votre prénom">
+                            </div>
+                            <div class="ff_input_box">
+                                <input type="text" class="ff_input" placeholder="Votre email">
+                            </div>
+                            <div class="fnl_text_12 mb-3">
+                                J’ai pris connaissance de la <a class="fnl_link_12" href="#">politique de confidentialité</a> des données et j’accepte de m’inscrire à la newsletter Vaziva pour recevoir des informations exclusives.
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="btn_orange btn_white__submit w-100">
+                                    <span>je m’inscris</span>
+                                    <span class="btn_orange__h">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10 6.66699H17.0833C17.4149 6.66699 17.7328 6.79869 17.9672 7.03311C18.2016 7.26753 18.3333 7.58547 18.3333 7.91699C18.3333 8.24851 18.2016 8.56646 17.9672 8.80088C17.7328 9.0353 17.4149 9.16699 17.0833 9.16699H10.8333M11.25 9.16699H12.9167C13.2482 9.16699 13.5661 9.29869 13.8005 9.53311C14.035 9.76753 14.1667 10.0855 14.1667 10.417C14.1667 10.7485 14.035 11.0665 13.8005 11.3009C13.5661 11.5353 13.2482 11.667 12.9167 11.667H10.8333M12.0833 11.667C12.4149 11.667 12.7328 11.7987 12.9672 12.0331C13.2016 12.2675 13.3333 12.5855 13.3333 12.917C13.3333 13.2485 13.2016 13.5665 12.9672 13.8009C12.7328 14.0353 12.4149 14.167 12.0833 14.167H10.8333" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M11.25 14.1668C11.5815 14.1668 11.8995 14.2985 12.1339 14.5329C12.3683 14.7674 12.5 15.0853 12.5 15.4168C12.5 15.7483 12.3683 16.0663 12.1339 16.3007C11.8995 16.5351 11.5815 16.6668 11.25 16.6668H7.5C6.17392 16.6668 4.90215 16.14 3.96447 15.2024C3.02678 14.2647 2.5 12.9929 2.5 11.6668V10.0002V10.1735C2.49986 9.34543 2.70538 8.53031 3.0981 7.80131C3.49081 7.0723 4.05844 6.45225 4.75 5.99682L5 5.83349C5.39889 5.57349 6.99 4.66071 9.77333 3.09515C10.0571 2.93553 10.3919 2.89289 10.7065 2.9763C11.0212 3.05972 11.2909 3.26261 11.4583 3.54182C11.825 4.15349 11.7292 4.93682 11.225 5.44182L10 6.66682" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-3 footer_top__4 ft_last">
+                    <a href="/" class="footer_logo">
+                        <img src="./images/logo.svg" alt="">
+                    </a>
+                    <div class="ft_last__text">
+                        en partenariat avec
+                    </div>
+                    <div class="mb-4">
+                        <img src="./images/master.svg" alt="">
+                    </div>
+                    <div class="ft_last__text">
+                        avec le soutien de
+                    </div>
+                    <div>
+                        <img src="./images/bpi.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_main">
+        <div class="footer_bottom">
+            La carte Vaziva Mastercard est fournie par Moorwand Ltd en partenariat avec Harmoniie SAS. Harmoniie SAS est une société immatriculée en France sous le numéro 833165863, dont le siège social est situé au 1, Rue de la Bourse, 75002 Paris. Elle est agréée par l’Autorité de Contrôle Prudentiel et de Résolution (ACPR) sous le numéro d’agrément 17478 pour l’émission de monnaie électronique. Moorwand Ltd est une société enregistrée en Angleterre et au Pays de Galles (n° d’enregistrement 8491211), dont le siège social est situé à Fora, 3 Lloyds Avenue, Londres, EC3N 3DS, Royaume-Uni. Elle est agréée par la Financial Conduct Authority au titre du règlement de 2011 sur la monnaie électronique (référence d’enregistrement : 900709) pour l’émission de monnaie électronique et d’instruments de paiement. La carte est émise sous licence de Mastercard International. Mastercard et le logo en forme de cercles sont des marques déposées de Mastercard International Incorporated.
+            <br />
+            VAZIVA est l'émetteur nouvelle génération de titres cadeaux, culture, vacances et déjeuner sur la 1ère carte de paiement multi-dotations Mastercard® managée pour les comités sociaux et économiques (CSE), ressources humaines (RH), entreprises et collectivités.
+        </div>
+        <div class="footer_copy">
+            <div class="row">
+                <div class="col-12 col-xl-3">
+                    © 2025. Tous droits réservés
+                </div>
+                <div class="col-12 col-xl-6">
+                    <ul id="menu-footer-legal-menu" class="fc_links"><li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="mentions-legales.php">Mentions légales</a></li>
+                        <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="politique-de-confidentialite.php">Politique de confidentialité</a></li>
+                        <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="securite-et-fraudes.php">Sécurité et fraudes</a></li>
+                        <li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="termes-et-conditions.php">Termes et conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-xl-3">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script type="text/javascript" src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./assets/js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="./assets/js/slick/slick.js"></script>
+<script type="text/javascript" src="./assets/js/app.js"></script>
+
+<script>
+    // Получаем элемент
+    //const offcanvasEl = document.getElementById('offcanvasBottom');
+
+    // Создаём объект Offcanvas
+    //const offcanvas = new bootstrap.Offcanvas(offcanvasEl);
+
+    // Открыть
+    //offcanvas.show();
+
+    // Закрыть
+    // offcanvas.hide();
+</script>
